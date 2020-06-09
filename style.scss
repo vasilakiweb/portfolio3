@@ -1,0 +1,14 @@
+// ===== Base =====
+@import "./sass/base/reset";
+
+// ===== Abstract =====
+@import "./sass/abstract/variables";
+@import "./sass/abstract/mixins";
+
+// ===== Layout =====
+@import "./sass/layout/header";
+@import "./sass/layout/footer";
+
+// ===== Pages =====
+@import "./sass/pages/all-pages";
+@import "./sass/pages/home";

@@ -1,0 +1,18 @@
+// # Footer
+.footer {
+    padding: 45px 0;
+    background-color: #344b8e;
+    &__list {
+        display: flex;
+        justify-content: space-around;
+    }
+    &__item {
+        @include font-sw (24px, 400);
+        cursor: pointer;
+        letter-spacing: 0.48px;
+        transition: all 0.2s;
+        &:hover {
+            color: #30bae7;
+        }
+    }
+}
